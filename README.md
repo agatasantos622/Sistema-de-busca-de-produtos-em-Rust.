@@ -22,6 +22,15 @@ A aplicação simula um sistema de busca de produtos, permitindo comparar **busc
 
 ---
 
+## 🧠 Conceitos Aplicados
+
+- Estruturas de dados (HashMap, Vetor)
+- Complexidade de algoritmos
+- Busca e filtragem de dados
+- Testes automatizados
+
+---
+
 ## 🧱 Estrutura do Projeto
 
 - src/
