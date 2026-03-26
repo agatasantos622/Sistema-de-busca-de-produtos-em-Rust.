@@ -51,25 +51,28 @@ Antes de começar, você precisa ter instalado:
 - Cargo (já incluído na instalação do Rust)
 
 Para verificar se está instalado corretamente:
-rustc --version
-cargo --version
+
+- rustc --version
+- cargo --version
 
 📥 Clonar o repositório
 
 ▶️ Executar o projeto
-cargo run
+
+- cargo run
 
 🧪 Executar os testes
-cargo test
+
+- cargo test
 
 💡 O que esperar
 Ao executar o projeto, o sistema irá:
 
-Inserir automaticamente vários produtos
-Realizar uma busca exata (ex: "Notebook Dell")
-Realizar uma busca parcial (ex: "note")
-Exibir os resultados no terminal
-Mostrar o tempo de execução de cada busca
+- Inserir automaticamente vários produtos
+- Realizar uma busca exata (ex: "Notebook Dell")
+- Realizar uma busca parcial (ex: "note")
+- Exibir os resultados no terminal
+- Mostrar o tempo de execução de cada busca
 
 👩‍💻 Autora
 Ágata Oliveira
