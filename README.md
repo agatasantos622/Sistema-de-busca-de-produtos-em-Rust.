@@ -51,10 +51,11 @@ git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
 cd NOME-DO-REPO
 
 Execute o sistema:
-
 cargo run
-🧪 Como Executar os Testes
+
+Como Executar os Testes:
 cargo test
+
 📊 Exemplo de Uso
 
 O sistema permite realizar buscas como:
