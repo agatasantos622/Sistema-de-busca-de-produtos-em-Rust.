@@ -24,12 +24,12 @@ A aplicação simula um sistema de busca de produtos, permitindo comparar **busc
 
 ## 🧱 Estrutura do Projeto
 
-src/
-├── main.rs # Execução principal do sistema
-├── produto.rs # Estrutura de dados Produto
-├── sistema_busca.rs # Lógica de busca e armazenamento
-tests/
-├── testes_busca.rs # Testes automatizados
+- src/
+  - main.rs # Execução principal do sistema
+  - produto.rs # Estrutura de dados Produto
+  - sistema_busca.rs # Lógica de busca e armazenamento
+- tests/
+  - testes_busca.rs # Testes automatizados
 
 
 ---
@@ -44,38 +44,32 @@ tests/
 
 ## ▶️ Como Executar o Projeto
 
-Clone o repositório:
+### 📌 Pré-requisitos
 
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-cd NOME-DO-REPO
+Antes de começar, você precisa ter instalado:
+- Rust
+- Cargo (já incluído na instalação do Rust)
 
-Execute o sistema:
+Para verificar se está instalado corretamente:
+rustc --version
+cargo --version
+
+📥 Clonar o repositório
+
+▶️ Executar o projeto
 cargo run
 
-Como Executar os Testes:
+🧪 Executar os testes
 cargo test
 
-📊 Exemplo de Uso
+💡 O que esperar
+Ao executar o projeto, o sistema irá:
 
-O sistema permite realizar buscas como:
-
-🔎 Busca exata:
-Notebook Dell
-🔍 Busca parcial:
-note → retorna múltiplos produtos
-
-Além disso, o tempo de execução de cada busca é exibido no terminal, permitindo comparação de desempenho.
-
-💡 Objetivo do Projeto
-
-Demonstrar, na prática, como a escolha da estrutura de dados impacta diretamente na performance de um sistema, além de aplicar boas práticas de organização e testes em Rust.
-
-🚀 Possíveis Melhorias
-Interface gráfica ou web
-Filtros avançados (preço, categoria, marca)
-Persistência de dados (arquivo ou banco de dados)
-Transformação em API
+Inserir automaticamente vários produtos
+Realizar uma busca exata (ex: "Notebook Dell")
+Realizar uma busca parcial (ex: "note")
+Exibir os resultados no terminal
+Mostrar o tempo de execução de cada busca
 
 👩‍💻 Autora
 Ágata Oliveira
