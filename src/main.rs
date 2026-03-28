@@ -87,17 +87,22 @@ fn main() {
     // ===============================
     println!("🔎 Busca PARCIAL por 'note':");
 
+    // Marca o início da medição de tempo
     let inicio_parcial = Instant::now();
 
-    // 👉 AQUI estava o problema antes — agora está correto
+    // Executa a busca parcial no sistema
     let resultados = sistema.buscar_parcial_nome("note");
 
+    // Verifica se encontrou resultados
     if resultados.is_empty() {
         println!("Nenhum produto encontrado.");
     } else {
+        // Exibe todos os produtos encontrados
         exibir_produtos(resultados);
-    }
+        }
 
+    // Calcula o tempo total da busca
     let tempo_parcial = inicio_parcial.elapsed();
+    // Exibe o tempo de execução
     println!("⏱ Tempo busca parcial: {:?}", tempo_parcial);
 }
